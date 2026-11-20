@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Through My Lens — photography by Roufiya. Travel, nature and everyday moments captured with feeling.">
+  <title>Through My Lens — Photography by Roufiya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Through My Lens home">
+      <span class="brand-mark">T<span>M</span>L</span>
+      <span class="brand-name">THROUGH MY LENS<small>PHOTOGRAPHY BY ROUFIYA</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#work">Portfolio</a><a href="#about">About</a><a href="#journal">Journal</a><a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-image" src="assets/quiet-evening.jpeg" alt="Mountain lake surrounded by dramatic mountains">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> PHOTOGRAPHY · TRAVEL · STORIES</p>
+        <h1>Finding beauty<br>in <em>the in-between.</em></h1>
+        <p class="hero-copy">A collection of places, quiet details and fleeting moments — seen through my lens.</p>
+        <a class="text-link" href="#work">EXPLORE THE PORTFOLIO <span>↓</span></a>
+      </div>
+      <div class="hero-side">IN EVERY FRAME, A STORY</div>
+      <div class="hero-count"><span>01</span> / 04</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow">A PERSONAL VISUAL DIARY</p>
+      <div class="intro-grid">
+        <h2>Not just what<br> I see. <em>What I feel.</em></h2>
+        <p>I'm Roufiya — an enthusiast behind the camera, drawn to changing skies, quiet details and the stories hidden in everyday life. This is where I collect the moments I don't want to forget.</p>
+      </div>
+    </section>
+
+    <section class="work section-wrap" id="work">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED FRAMES · 2026</p><h2>Stories in <em>light.</em></h2></div>
+        <p>A few frames from the places<br>and moments that stay with me.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter photographs">
+        <button class="filter active" data-filter="all">All work <span>20</span></button>
+        <button class="filter" data-filter="travel">Travel</button>
+        <button class="filter" data-filter="nature">Nature</button>
+        <button class="filter" data-filter="everyday">Everyday</button>
+      </div>
+      <div class="gallery">
+        <article class="photo-card tall" data-category="travel">
+          <button class="photo-open" data-full="assets/quiet-evening.jpeg" aria-label="View quiet evening photograph">
+            <img src="assets/quiet-evening.jpeg" alt="A quiet evening by the water beneath a pink sky">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>01 / MOMENTS</span><h3>Under a pink evening sky</h3></div>
+        </article>
+        <article class="photo-card" data-category="nature">
+          <button class="photo-open" data-full="assets/sunflower-days.jpeg" aria-label="View sunflower field photograph">
+            <img src="assets/sunflower-days.jpeg" alt="A person among a field of sunflowers beneath cloudy skies">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>02 / NATURE</span><h3>A field of sunshine</h3></div>
+        </article>
+        <article class="photo-card" data-category="nature">
+          <button class="photo-open" data-full="assets/forest-morning.jpeg" aria-label="View forest balcony photograph">
+            <img src="assets/forest-morning.jpeg" alt="A peaceful balcony overlooking a green forest">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>03 / NATURE</span><h3>A slower kind of morning</h3></div>
+        </article>
+        <article class="photo-card wide" data-category="travel">
+          <button class="photo-open" data-full="assets/hill-country-two.jpeg" aria-label="View misty green hills photograph">
+            <img src="assets/hill-country-two.jpeg" alt="Misty green hills beneath a cloudy sky">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>04 / LANDSCAPE</span><h3>Where the hills disappear into mist</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/coffee-corner.jpeg" aria-label="View coffee shop photograph">
+            <img src="assets/coffee-corner.jpeg" alt="Coffee-making equipment and pink ceramic cups">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>05 / EVERYDAY</span><h3>Little coffee rituals</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/bookstore-moment.jpeg" aria-label="View bookstore photograph">
+            <img src="assets/bookstore-moment.jpeg" alt="A quiet moment browsing books in a bookstore">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>06 / EVERYDAY</span><h3>Lost between the pages</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/slow-afternoon.jpeg" aria-label="View outdoor cafe photograph">
+            <img src="assets/slow-afternoon.jpeg" alt="An outdoor café with palm trees and warm neutral tones">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>07 / EVERYDAY</span><h3>An afternoon pause</h3></div>
+        </article>
+        <article class="photo-card" data-category="nature">
+          <button class="photo-open" data-full="assets/misty-forest.jpeg" aria-label="View misty forest photograph">
+            <img src="assets/misty-forest.jpeg" alt="Tall trees fading into a misty forest">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>08 / NATURE</span><h3>Into the quiet woods</h3></div>
+        </article>
+        <article class="photo-card" data-category="travel">
+          <button class="photo-open" data-full="assets/hill-country-one.jpeg" aria-label="View hill country photograph">
+            <img src="assets/hill-country-one.jpeg" alt="Clouds hanging low over a green hillside and roadside building">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>09 / LANDSCAPE</span><h3>A view through the clouds</h3></div>
+        </article>
+        <article class="photo-card" data-category="travel">
+          <button class="photo-open" data-full="assets/hill-country-three.jpeg" aria-label="View green valley photograph">
+            <img src="assets/hill-country-three.jpeg" alt="A green valley and mist-covered hills">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>10 / LANDSCAPE</span><h3>Somewhere in the green</h3></div>
+        </article>
+      </div>
+        <article class="photo-card" data-category="travel">
+          <button class="photo-open" data-full="assets/green-supercar-front.jpeg" aria-label="View a little green dream photograph">
+            <img src="assets/green-supercar-front.jpeg" alt="A green supercar photographed from the front">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>11 / CARS</span><h3>A little green dream</h3></div>
+        </article>
+        <article class="photo-card" data-category="travel">
+          <button class="photo-open" data-full="assets/green-supercar-rear.jpeg" aria-label="View a second look photograph">
+            <img src="assets/green-supercar-rear.jpeg" alt="A green supercar seen from the rear on a city street">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>12 / CARS</span><h3>A second look</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/ramen-night.jpeg" aria-label="View a comforting bowl photograph">
+            <img src="assets/ramen-night.jpeg" alt="A bowl of noodles at a restaurant table">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>13 / FOOD</span><h3>A comforting bowl</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/dinner-bowl.jpeg" aria-label="View dinner, shared slowly photograph">
+            <img src="assets/dinner-bowl.jpeg" alt="A colourful dinner bowl with egg and vegetables">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>14 / FOOD</span><h3>Dinner, shared slowly</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/dessert-stop.jpeg" aria-label="View a little dessert break photograph">
+            <img src="assets/dessert-stop.jpeg" alt="Slices of cheesecake and chocolate dessert">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>15 / SWEET THINGS</span><h3>A little dessert break</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/espresso-machine.jpeg" aria-label="View behind the coffee photograph">
+            <img src="assets/espresso-machine.jpeg" alt="A red espresso machine in a café">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>16 / COFFEE</span><h3>Behind the coffee</h3></div>
+        </article>
+        <article class="photo-card" data-category="everyday">
+          <button class="photo-open" data-full="assets/cafe-favourites.jpeg" aria-label="View good food, good company photograph">
+            <img src="assets/cafe-favourites.jpeg" alt="A café table with a burger, pasta and iced drink">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>17 / FOOD</span><h3>Good food, good company</h3></div>
+        </article>
+        <article class="photo-card" data-category="nature">
+          <button class="photo-open" data-full="assets/pink-blossoms.jpeg" aria-label="View blossoms overhead photograph">
+            <img src="assets/pink-blossoms.jpeg" alt="A tree covered in pink blossoms against a blue sky">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>18 / NATURE</span><h3>Blossoms overhead</h3></div>
+        </article>
+        <article class="photo-card" data-category="travel">
+          <button class="photo-open" data-full="assets/classic-car.jpeg" aria-label="View a classic on display photograph">
+            <img src="assets/classic-car.jpeg" alt="A vintage red car displayed indoors">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>19 / DETAILS</span><h3>A classic on display</h3></div>
+        </article>
+        <article class="photo-card" data-category="nature">
+          <button class="photo-open" data-full="assets/aquarium-glow.jpeg" aria-label="View an underwater world photograph">
+            <img src="assets/aquarium-glow.jpeg" alt="A tall aquarium tank with fish and warm lighting">
+            <span class="photo-plus">↗</span>
+          </button><div class="photo-caption"><span>20 / DISCOVERY</span><h3>An underwater world</h3></div>
+        </article>
+      <p class="gallery-note">Photographs by Roufiya. A growing collection of places, details and everyday moments.</p>
+    </section>
+
+    <section class="quote-band">
+      <img src="assets/hill-country-two.jpeg" alt="Wide open mountain landscape">
+      <div class="quote-overlay"></div>
+      <blockquote>“The camera is an excuse<br>to <em>look a little closer.</em>”</blockquote>
+      <p>— NOTES FROM BEHIND THE LENS</p>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-image">
+        <img src="assets/forest-morning.jpeg" alt="A quiet woodland scene">
+        <span class="image-index">A MOMENT TO PAUSE · 2026</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Hello, I'm<br><em>Roufiya.</em></h2>
+        <p class="about-lead">Curious by nature. Always looking for the light.</p>
+        <p>Photography gives me a reason to slow down and notice the world around me. Whether I'm exploring somewhere new or finding something beautiful close to home, I love preserving the feeling of a moment.</p>
+        <p>This portfolio is a growing collection of those discoveries. Thanks for being here.</p>
+        <a class="text-link" href="#contact">SAY HELLO <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="journal section-wrap" id="journal">
+      <div class="section-heading"><div><p class="eyebrow">BEHIND THE FRAMES</p><h2>Field <em>notes.</em></h2></div><p>Places, thoughts and little<br>things worth remembering.</p></div>
+      <div class="journal-grid">
+        <article><span>TRAVEL NOTES · 03 MIN READ</span><h3>Chasing the changing light</h3><p>Some of the best photographs begin with nowhere in particular to go.</p></article>
+        <article><span>CREATIVE PRACTICE · 02 MIN READ</span><h3>Learning to notice more</h3><p>Finding a frame in the ordinary, one small detail at a time.</p></article>
+        <article><span>ON THE ROAD · 04 MIN READ</span><h3>Memories made along the way</h3><p>A visual diary of landscapes, journeys and unexpected pauses.</p></article>
+      </div>
+      <p class="gallery-note">Journal entries are sample copy — personalise these with your own stories.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <p class="eyebrow">HAVE A STORY TO SHARE?</p>
+        <h2>Let's make<br><em>something memorable.</em></h2>
+        <p>For collaborations, questions or just to say hello, I'd love to hear from you.</p>
+        <a class="contact-link" href="mailto:your-email@example.com">HELLO@EXAMPLE.COM <span>↗</span></a>
+        <p class="email-note">Update this email address with your preferred contact before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="footer-brand" href="#home">THROUGH MY LENS <span>© 2026 ROUFIYA</span></a>
+    <div><a href="#work">PORTFOLIO</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></div>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Expanded photograph">
+    <button class="lightbox-close" aria-label="Close image">×</button>
+    <img src="" alt="">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
